@@ -49,6 +49,6 @@ If you have existing users stuck in "unconfirmed" state:
 
 ## 🔒 CREDENTIALS CHECK
 Ensure your `.env` file has the correct keys.
-- **URL**: `https://nhihdtnmaofeorfgcnaw.supabase.co`
+- **URL**: `your_supabase_url`
 - **Anon Key**: Should start with `ey...` (JWT). Your current key (`sb_publishable_...`) looks unusual for a standard Supabase project. If you have connection issues, double check this key in **Settings > API**.
 

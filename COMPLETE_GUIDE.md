@@ -242,8 +242,8 @@ npm run dev
 
 ### **Environment Variables:**
 ```env
-VITE_SUPABASE_URL=https://nmrsgleoxeoawaxaiqbw.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGci...
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 ### **Auth Methods:**

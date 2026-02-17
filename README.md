@@ -41,14 +41,14 @@ Create a `.env` file in the root directory:
 
 ```env
 # Supabase Configuration
-VITE_SUPABASE_URL=https://nmrsgleoxeoawaxaiqbw.supabase.co
+VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_key
 
 # Groq AI Configuration
-VITE_GROQ_API_KEY=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
+VITE_GROQ_API_KEY=your_groq_api_key
 
 # LangChain Configuration
-VITE_LANGCHAIN_API_KEY=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
+VITE_LANGCHAIN_API_KEY=your_langchain_api_key
 ```
 
 ## 📦 Tech Stack
