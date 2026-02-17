@@ -1,0 +1,29 @@
+﻿
+> vite-react-typescript-starter@0.0.0 typecheck
+> tsc --noEmit -p tsconfig.app.json
+
+src/components/atoms/CyberButton.tsx(2,1): error TS6133: 'Zap' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(19,5): error TS6133: 'maxIterations' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(20,5): error TS6133: 'revealDirection' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(36,28): error TS6133: 'prev' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(39,27): error TS6133: 'char' is declared but its value is never read.
+src/components/layout/BootSequence.tsx(2,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/ui/ai-command-palette.tsx(1,31): error TS6133: 'useCallback' is declared but its value is never read.
+src/components/ui/ai-command-palette.tsx(163,62): error TS6133: 'idx' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(2,18): error TS6133: 'useMotionValue' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(2,34): error TS6133: 'useTransform' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(2,48): error TS6133: 'animate' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(20,12): error TS6133: 'hoverDuration' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(20,27): error TS6133: 'setHoverDuration' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(22,11): error TS6133: 'hoverTimer' is declared but its value is never read.
+src/components/ui/focus-rail.tsx(124,24): error TS6133: 'e' is declared but its value is never read.
+src/components/ui/future-certificates.tsx(3,1): error TS6133: 'cn' is declared but its value is never read.
+src/components/ui/future-you.tsx(49,26): error TS6133: 'setShowTimeline' is declared but its value is never read.
+src/components/ui/neural-network.tsx(2,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/ui/neural-network.tsx(3,10): error TS6133: 'Users' is declared but its value is never read.
+src/components/ui/neural-network.tsx(3,42): error TS6133: 'Zap' is declared but its value is never read.
+src/components/ui/neural-network.tsx(3,47): error TS6133: 'Target' is declared but its value is never read.
+src/components/ui/particle-effect-for-hero.tsx(1,59): error TS6133: 'useMemo' is declared but its value is never read.
+src/components/ui/saas-hero.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/ui/skill-topology.tsx(32,12): error TS6133: 'mousePos' is declared but its value is never read.
+src/demos/HeroDemo.tsx(1,1): error TS6133: 'React' is declared but its value is never read.

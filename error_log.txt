@@ -1,0 +1,85 @@
+﻿src/components/atoms/DecryptionText.tsx(19,5): error TS6133: 'maxIterations' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(20,5): error TS6133: 'revealDirection' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(36,28): error TS6133: 'prev' is declared but its value is never read.
+src/components/atoms/DecryptionText.tsx(39,27): error TS6133: 'char' is declared but its value is never read.
+src/components/layout/BootSequence.tsx(2,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/ui/ai-command-palette.tsx(163,62): error TS6133: 'idx' is declared but its value is never read.
+src/components/ui/card-stack.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(2,18): error TS6133: 'useMotionValue' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(2,34): error TS6133: 'useTransform' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(2,48): error TS6133: 'animate' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(20,12): error TS6133: 'hoverDuration' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(20,27): error TS6133: 'setHoverDuration' is declared but its value is never read.
+src/components/ui/cognitive-core.tsx(22,11): error TS6133: 'hoverTimer' is declared but its value is never read.
+src/components/ui/focus-rail.tsx(124,24): error TS6133: 'e' is declared but its value is never read.
+src/components/ui/future-certificates.tsx(3,1): error TS6133: 'cn' is declared but its value is never read.
+src/components/ui/future-you.tsx(50,26): error TS6133: 'setShowTimeline' is declared but its value is never read.
+src/components/ui/neural-network.tsx(3,10): error TS6133: 'Users' is declared but its value is never read.
+src/components/ui/neural-network.tsx(3,42): error TS6133: 'Zap' is declared but its value is never read.
+src/components/ui/neural-network.tsx(3,47): error TS6133: 'Target' is declared but its value is never read.
+src/components/ui/particle-effect-for-hero.tsx(1,59): error TS6133: 'useMemo' is declared but its value is never read.
+src/components/ui/saas-hero.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/ui/skill-topology.tsx(32,12): error TS6133: 'mousePos' is declared but its value is never read.
+src/components/ui/student-onboarding.tsx(3,44): error TS6133: 'Target' is declared but its value is never read.
+src/demos/CardStackDemo.tsx(1,10): error TS2614: Module '"@/components/ui/card-stack"' has no exported member 'CardStack'. Did you mean to use 'import CardStack from "@/components/ui/card-stack"' instead?
+src/demos/CardStackDemo.tsx(1,21): error TS2614: Module '"@/components/ui/card-stack"' has no exported member 'CardStackItem'. Did you mean to use 'import CardStackItem from "@/components/ui/card-stack"' instead?
+src/demos/HeroDemo.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/pages/Analytics.tsx(9,5): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/pages/Analytics.tsx(10,5): error TS6133: 'Search' is declared but its value is never read.
+src/pages/Analytics.tsx(11,5): error TS6133: 'Filter' is declared but its value is never read.
+src/pages/LandingPage.tsx(86,37): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/pages/LandingPage.tsx(107,29): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/pages/LandingPage.tsx(121,29): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/pages/LandingPage.tsx(129,29): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/pages/LandingPage.tsx(169,37): error TS2322: Type '{ hidden: { opacity: number; y: number; }; visible: { opacity: number; y: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; y: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/pages/Mentors.tsx(2,1): error TS6133: 'cn' is declared but its value is never read.
